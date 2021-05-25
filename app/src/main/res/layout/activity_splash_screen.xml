@@ -33,5 +33,16 @@
         android:gravity="center"
         ></TextView>
 
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We will detect your disease from your symptoms"
+        android:textStyle="italic"
+        android:fontFamily="serif"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        ></TextView>
 </LinearLayout>

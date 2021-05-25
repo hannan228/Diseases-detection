@@ -35,14 +35,14 @@
 
         <RadioGroup
             android:layout_marginLeft="20dp"
-            android:id="@+id/userTypeGroup"
+            android:id="@+id/feverTimeGroup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             >
 
             <RadioButton
-                android:id="@+id/radioMale"
+                android:id="@+id/morningFever"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="MORNING"
@@ -50,12 +50,13 @@
 
             <RadioButton
                 android:layout_marginLeft="10dp"
-                android:id="@+id/radioFemale"
+                android:id="@+id/afternonFever"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="AFTERNOON" />
 
             <RadioButton
+                android:id="@+id/nigtFever"
                 android:layout_marginLeft="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -82,6 +83,7 @@
             />
 
         <RadioGroup
+            android:id="@+id/feverTypeGroup"
             android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -89,12 +91,14 @@
             >
 
             <RadioButton
+                android:id="@+id/sometimeType"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="SOMETIMES"
                 android:checked="true" />
 
             <RadioButton
+                android:id="@+id/alwaysType"
                 android:layout_marginLeft="5dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -122,6 +126,7 @@
             />
 
         <RadioGroup
+            android:id="@+id/feverShiveringGroup"
             android:layout_marginLeft="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -129,12 +134,14 @@
             >
 
             <RadioButton
+                android:id="@+id/yesFever"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="YES"
                 android:checked="true" />
 
             <RadioButton
+                android:id="@+id/noFever"
                 android:layout_marginLeft="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

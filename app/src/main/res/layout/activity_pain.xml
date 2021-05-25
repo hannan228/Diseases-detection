@@ -37,14 +37,14 @@
             />
 
         <RadioGroup
-            android:id="@+id/userTypeGroup"
+            android:id="@+id/painWhereGroup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:orientation="horizontal">
 
             <RadioButton
-                android:id="@+id/radioMale"
+                android:id="@+id/radioMaleee"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="ABDOMEN"
@@ -52,7 +52,7 @@
                 />
 
             <RadioButton
-                android:id="@+id/radioFemale"
+                android:id="@+id/radioFemaleee"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
@@ -79,7 +79,7 @@
             />
 
         <RadioGroup
-            android:id="@+id/sks"
+            android:id="@+id/painPositionGroup"
             android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -95,7 +95,7 @@
                  />
 
             <RadioButton
-                android:id="@+id/hs"
+                android:id="@+id/hsee"
                 android:layout_marginLeft="5dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -137,7 +137,7 @@
             />
 
         <RadioGroup
-            android:id="@+id/type"
+            android:id="@+id/painTypeGroup"
             android:layout_marginLeft="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -145,7 +145,7 @@
             >
 
             <RadioButton
-                android:id="@+id/alwaysType"
+                android:id="@+id/alwaysType2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="ALWAYS"
@@ -153,11 +153,11 @@
                 />
 
             <RadioButton
-                android:id="@+id/sometime"
+                android:id="@+id/sometime2"
                 android:layout_marginLeft="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="SOMETIME" />
+                android:text="SOMETIMES" />
 
         </RadioGroup>
 

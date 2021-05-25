@@ -8,6 +8,11 @@
         android:title="Signout"
         app:showAsAction="never"
         ></item>
+    <item
+        android:id="@+id/action_start"
+        android:title="Start"
+        app:showAsAction="never"
+        ></item>
 
 
 </menu>

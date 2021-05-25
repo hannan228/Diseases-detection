@@ -38,14 +38,14 @@
         <RadioGroup
             android:layout_marginTop="50dp"
             android:layout_marginLeft="20dp"
-            android:id="@+id/userTypeGroup"
+            android:id="@+id/diarhoeaWithbloodGroup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             >
 
             <RadioButton
-                android:id="@+id/radioMale"
+                android:id="@+id/radioYes_withBlod"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="YES"
@@ -53,14 +53,12 @@
 
             <RadioButton
                 android:layout_marginLeft="10dp"
-                android:id="@+id/radioFemale"
+                android:id="@+id/radioNo_withBlod"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="NO" />
 
         </RadioGroup>
-
-
     </LinearLayout>
 
 
@@ -80,6 +78,7 @@
             />
 
         <RadioGroup
+            android:id="@+id/diarrhoeStoolType"
             android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -87,12 +86,14 @@
             >
 
             <RadioButton
+                android:id="@+id/soft_stoolType"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="SOFT"
                 android:checked="true" />
 
             <RadioButton
+                android:id="@+id/illFormed_stoolType"
                 android:layout_marginLeft="5dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -100,6 +101,7 @@
 
 
             <RadioButton
+                android:id="@+id/watery_stoolType"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="WATERY"
@@ -118,6 +120,7 @@
         android:layout_marginTop="50dp"
         >
         <Button
+            android:id="@+id/previousBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Previous"
@@ -125,7 +128,7 @@
             android:onClick="previous"
             />
         <Button
-
+            android:id="@+id/nextBtn"
             android:layout_marginLeft="70dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
